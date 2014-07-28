@@ -12,5 +12,6 @@
 
 @property (nonatomic,strong) NSString * story;
 @property (nonatomic,strong) UIImage * background;
+@property (nonatomic) CGPoint coordinate;
 
 @end

@@ -13,6 +13,7 @@
 @property (weak, nonatomic) IBOutlet UILabel *currentHealthLabel;
 @property (weak, nonatomic) IBOutlet UILabel *currentArmorLabel;
 @property (weak, nonatomic) IBOutlet UILabel *currentWeaponLabel;
+@property (weak, nonatomic) IBOutlet UILabel *currentDamageLabel;
 
 
 @end

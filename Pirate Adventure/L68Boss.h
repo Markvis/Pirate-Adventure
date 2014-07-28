@@ -10,4 +10,6 @@
 
 @interface L68Boss : NSObject
 
+@property (nonatomic) int health;
+
 @end

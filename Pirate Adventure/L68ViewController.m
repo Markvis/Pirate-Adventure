@@ -7,6 +7,8 @@
 //
 
 #import "L68ViewController.h"
+#import "L68Character.h"
+#import "L68Factory.h"
 
 @interface L68ViewController ()
 
