@@ -37,6 +37,8 @@
 		4DEF29DF198628B600646E25 /* L68Armor.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DEF29DE198628B600646E25 /* L68Armor.m */; };
 		4DEF29E21986294E00646E25 /* L68Weapon.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DEF29E11986294E00646E25 /* L68Weapon.m */; };
 		4DEF29E51986298200646E25 /* L68Character.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DEF29E41986298200646E25 /* L68Character.m */; };
+		4DEF29E8198633FE00646E25 /* L68Factory.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DEF29E7198633FE00646E25 /* L68Factory.m */; };
+		4DEF29EB198637D800646E25 /* L68Boss.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DEF29EA198637D800646E25 /* L68Boss.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -89,6 +91,10 @@
 		4DEF29E11986294E00646E25 /* L68Weapon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = L68Weapon.m; sourceTree = "<group>"; };
 		4DEF29E31986298200646E25 /* L68Character.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = L68Character.h; sourceTree = "<group>"; };
 		4DEF29E41986298200646E25 /* L68Character.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = L68Character.m; sourceTree = "<group>"; };
+		4DEF29E6198633FE00646E25 /* L68Factory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = L68Factory.h; sourceTree = "<group>"; };
+		4DEF29E7198633FE00646E25 /* L68Factory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = L68Factory.m; sourceTree = "<group>"; };
+		4DEF29E9198637D800646E25 /* L68Boss.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = L68Boss.h; sourceTree = "<group>"; };
+		4DEF29EA198637D800646E25 /* L68Boss.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = L68Boss.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,6 +162,10 @@
 				4DEF29DD198628B600646E25 /* L68Armor.h */,
 				4DEF29E01986294E00646E25 /* L68Weapon.h */,
 				4DEF29E31986298200646E25 /* L68Character.h */,
+				4DEF29E6198633FE00646E25 /* L68Factory.h */,
+				4DEF29E7198633FE00646E25 /* L68Factory.m */,
+				4DEF29E9198637D800646E25 /* L68Boss.h */,
+				4DEF29EA198637D800646E25 /* L68Boss.m */,
 				4DEF29E41986298200646E25 /* L68Character.m */,
 				4DEF29E11986294E00646E25 /* L68Weapon.m */,
 				4DEF29DE198628B600646E25 /* L68Armor.m */,
@@ -319,11 +329,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				4DEF29DC1986281500646E25 /* L68Tile.m in Sources */,
+				4DEF29E8198633FE00646E25 /* L68Factory.m in Sources */,
 				4DEF29A41986268F00646E25 /* L68ViewController.m in Sources */,
 				4DEF29E21986294E00646E25 /* L68Weapon.m in Sources */,
 				4DEF29DF198628B600646E25 /* L68Armor.m in Sources */,
 				4DEF29E51986298200646E25 /* L68Character.m in Sources */,
 				4DEF299A1986268F00646E25 /* main.m in Sources */,
+				4DEF29EB198637D800646E25 /* L68Boss.m in Sources */,
 				4DEF299E1986268F00646E25 /* L68AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -529,6 +541,7 @@
 				4DEF29BE1986268F00646E25 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4DEF29BF1986268F00646E25 /* Build configuration list for PBXNativeTarget "Pirate AdventureTests" */ = {
 			isa = XCConfigurationList;
@@ -537,6 +550,7 @@
 				4DEF29C11986268F00646E25 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

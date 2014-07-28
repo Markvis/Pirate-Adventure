@@ -10,5 +10,9 @@
 
 @interface L68ViewController : UIViewController
 @property (weak, nonatomic) IBOutlet UILabel *appTitle;
+@property (weak, nonatomic) IBOutlet UILabel *currentHealthLabel;
+@property (weak, nonatomic) IBOutlet UILabel *currentArmorLabel;
+@property (weak, nonatomic) IBOutlet UILabel *currentWeaponLabel;
+
 
 @end
