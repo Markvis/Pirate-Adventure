@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface L68ViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UILabel *appTitle;
 
 @end
