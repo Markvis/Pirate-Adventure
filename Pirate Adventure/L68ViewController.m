@@ -28,4 +28,21 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)currentTileActionButton:(UIButton *)sender {
+}
+
+- (IBAction)northButton:(UIButton *)sender {
+}
+
+- (IBAction)eastButton:(UIButton *)sender {
+}
+
+- (IBAction)westButton:(UIButton *)sender {
+}
+
+- (IBAction)southButton:(UIButton *)sender {
+}
+
+- (IBAction)resetButton:(UIButton *)sender {
+}
 @end
